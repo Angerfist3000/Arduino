@@ -3,10 +3,11 @@
 #include <FirebaseArduino.h>
 #include <time.h>
 #include <ESP8266HTTPClient.h>
+
 //nombre de mi red wi-fi
-#define WIFI_SID "IOT_Practs"
+#define WIFI_SID ""
 //password de mi red wi-fi
-#define WIFI_PASSWORD "PracticasI0T"
+#define WIFI_PASSWORD ""
 
 //variable de cadena de texto
 String msjenviado;
@@ -107,9 +108,9 @@ void loop() {
     HTTPClient http; //se declara un obejeto de la HTTPClient
 
     msjenviado = "http://api.callmeboot.com/whatsapp.php?";
-    msjenviado = msjenviado + "phone=+5219321259931";
+    msjenviado = msjenviado + "phone=+521";
     msjenviado = msjenviado + "&text=Alerta+se+ha+detectado+un+movimiento";
-    msjenviado = msjenviado + "&apikey=8275609";
+    msjenviado = msjenviado + "&apikey=";
     http.begin(msjenviado);
     int httpCode = http.GET();//enviando la peticion
     if(httpCode > 0){
