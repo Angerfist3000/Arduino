@@ -8,14 +8,14 @@
 
 //-----------------Se definen los valores fundamentales del proyecto----------------- 
 //Host del proyecto
-#define FIREBASE_HOST "clean-car-f26de-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST ""
 //Secret de la BD
-#define FIREBASE_AUTH "QBerFezVwA6cT3liU1p0h26flKqxGHRMycChiVeP"
+#define FIREBASE_AUTH ""
 
 //Nombre de mi red Wifi
-#define WIFI_SSID "Realmadrid"
+#define WIFI_SSID ""
 //password de mi red WiFi
-#define WIFI_PASSWORD "heito1997"
+#define WIFI_PASSWORD ""
 
 //variable de cadena de texto 
 String msjenviado;
@@ -124,9 +124,9 @@ if (d<=15){
   HTTPClient http; //Se declara un objeto de la clase HTTPClient
 
   msjenviado = "http://api.callmebot.com/whatsapp.php?";
-  msjenviado = msjenviado + "phone=+5219321259931";
+  msjenviado = msjenviado + "phone=+";
   msjenviado = msjenviado + "&text=Alerta+se+ha+detectado+movimiento";
-  msjenviado = msjenviado + "&apikey=8275609";
+  msjenviado = msjenviado + "&apikey=";
 
   http.begin(msjenviado);
   int httpCode = http.GET(); //Enviando la petición 
