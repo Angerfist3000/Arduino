@@ -13,9 +13,9 @@
 // Secret de la Base de Datos
 #define FIREBASE_AUTH "SECRETO"
 // Nombre de mi red Wi-Fi
-#define WIFI_SSID "INFINITUM0C72_2.4"
+#define WIFI_SSID ""
 // Password de mi red WiFi
-#define WIFI_PASSWORD "3M2FE7mxL7"
+#define WIFI_PASSWORD ""
 //variable de cadena de texto
 String msjenviado;
 
@@ -154,9 +154,9 @@ void loop(){
               HTTPClient http; //Se declara un objeto de la clase HTTPClient
   
               msjenviado = "http://api.callmebot.com/whatsapp.php?";
-              msjenviado = msjenviado + "phone=+5219611502656";
+              msjenviado = msjenviado + "phone=+";
               msjenviado = msjenviado + "&text=Alerta+se+ha+detectado+un+objeto";
-              msjenviado = msjenviado + "&apikey=129814";
+              msjenviado = msjenviado + "&apikey=";
 
               http.begin(msjenviado);
               int httpCode = http.GET(); //Enviando la petición
