@@ -7,14 +7,14 @@
 
 
 //Host del proyecto
-#define FIREBASE_HOST "cleancar-f7ec5-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST ""
 //Secret de la BD
-#define FIREBASE_AUTH "HT5BiwjVQqZjOsJSwrDBxdVWyWxBbGkEHk5IJUuz"
+#define FIREBASE_AUTH ""
 
 //Nombre de mi red Wifi
-#define WIFI_SSID "LAPTOP Laura"
+#define WIFI_SSID ""
 //password de mi red WiFi
-#define WIFI_PASSWORD "laura123"
+#define WIFI_PASSWORD ""
 
 //-------Ultrasonico 1--------
 const int Trigger1 = 4;
@@ -74,7 +74,7 @@ void loop() {
 
   if (d1<=10)
   {
-  Serial.print("Objeto Detectadogggrrw: ");
+  Serial.print("Objeto Detectado: ");
   Serial.print(d1);
   Serial.print("cm");
   Serial.println();
