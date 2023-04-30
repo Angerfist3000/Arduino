@@ -8,14 +8,14 @@
 
 // ------------------------ Se definen los valores fundamentales del proyecto ---//
 // Host del proyecto -- sin https:// y sin la / al final únicamente la dirección del proyecto
-#define FIREBASE_HOST "cleancar-179a8-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST ""
 //Secret de la BD
-#define FIREBASE_AUTH "2J6dxBEJxXyPhkrAbDtXSjEKXoJZtdyhsR66boOZ"
-// Nombre de mi red Wi-Fi
-#define WIFI_SSID "IoT_Practs"
+#define FIREBASE_AUTH ""
 
+// Nombre de mi red Wi-Fi
+#define WIFI_SSID ""
 // Password de mi red WiFi
-#define WIFI_PASSWORD "PracticasI0T"
+#define WIFI_PASSWORD ""
 //variable de cadena de texto
 String msjenviado;
 
