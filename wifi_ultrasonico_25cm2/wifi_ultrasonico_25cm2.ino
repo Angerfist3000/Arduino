@@ -1,7 +1,3 @@
-//----------------------------------- Autor -------------------------------------//
-//                          Héctor H. Herrera Escobar                            //
-//-------------------------------------------------------------------------------//
-
 //------------- Librerias utilizadas --------------------------------------------//
 
 #include <ESP8266WiFi.h>
@@ -10,15 +6,15 @@
 #include <ESP8266HTTPClient.h>
 
 //Host del proyecto
-#define FIREBASE_HOST "cleancar-f7ec5-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST ""
 //Secret de la BD
-#define FIREBASE_AUTH "g10ZW5aDbm2Ht5vDQebJ4CBVTUT5NTRNZY18AwFk"
+#define FIREBASE_AUTH ""
 
 
 // Nombre de mi red Wi-Fi
-#define WIFI_SSID "Realmadrid"
+#define WIFI_SSID ""
 // Password de mi red WiFi
-#define WIFI_PASSWORD "heito1997"
+#define WIFI_PASSWORD ""
 
 //variable de cadena de texto
 String msjenviado;
