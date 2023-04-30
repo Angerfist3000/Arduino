@@ -8,14 +8,14 @@
 
 //-----------------Se definen los valores fundamentles del proyecto----------------- 
 //Host del proyecto
-#define FIREBASE_HOST "cleancar-f7ec5-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST ""
 //Secret de la BD
-#define FIREBASE_AUTH "HT5BiwjVQqZjOsJSwrDBxdVWyWxBbGkEHk5IJUuz"
+#define FIREBASE_AUTH ""
 
 //Nombre de mi red Wifi
-#define WIFI_SSID "ANDREY"
+#define WIFI_SSID ""
 //password de mi red WiFi
-#define WIFI_PASSWORD "T1c51t0sDSM2"
+#define WIFI_PASSWORD ""
 
 //------ULTRASONICO 1--------//
 //Pin digital GPIO4 - D2 del ESP8266 para el Trigger del sensor SENSOR ULTRASÓNICO
